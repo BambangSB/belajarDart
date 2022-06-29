@@ -16,9 +16,24 @@ void main(List<String> arguments) {
   print(x);
    */
 
-  stdout.write('Masukkan Nama lengkap : ');
+  /*stdout.write('Masukkan Nama lengkap : ');
   String name = stdin.readLineSync()!;
   stdout.write('Masukkan umur anda : ');
   int age = int.parse(stdin.readLineSync()!);
   print('Nama anda adalah : $name, dan anda memiliki umur : $age');
+   */
+
+  // String -> Int
+  var sebelas = int.parse('11');
+
+//  String -> Double
+  var sebelasKomaDua = double.parse('11.2');
+
+//  Int -> String
+  var sebelasKeString = 11.toString();
+
+//  Double -> String
+  var piKeString = 3.14159.toString(); //String piKeString = 3.14
+
+
 }
